@@ -1,0 +1,2083 @@
+repo_name: DrivenIdeaLab/langchain
+report_id: 9a4e4124d9b0aef465944e4e316a8010
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-15T18:11:38+00:00'
+requested_by: efriis
+provider: github
+branch: master
+detected_tools_count: 148
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/.devcontainer/docker-compose.yaml
+  detection_source: ".devcontainer/docker-compose.yaml"
+  last_updated_by: Zander Chase
+  last_updated_on: 2023-05-04 18:37:00.000000000 Z
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/docs/docs/integrations/document_loaders/example_data/mlb_teams_2012.sql
+  detection_source: docs/docs/integrations/document_loaders/example_data/mlb_teams_2012.sql
+  last_updated_by: Eugene Yurtsev
+  last_updated_on: 2024-02-28 21:02:28.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  version: 5.1.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/docs/yarn.lock
+  detection_source: docs/package.json
+  last_updated_by: Brace Sproul
+  last_updated_on: 2024-03-19 17:42:59.000000000 Z
+- name: FastAPI
+  description: A high performance, easy to learn, fast to code, ready for production
+    web framework
+  website_url: https://fastapi.tiangolo.com/
+  version: 0.110.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/25014/default_f6ff39141b468e832d1bc59fc98a060df604d44d.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/cli/poetry.lock
+  detection_source: libs/cli/langchain_cli/package_template/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2023-10-25 18:06:58.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/docs/yarn.lock
+  detection_source: docs/package.json
+  last_updated_by: Davis Chase
+  last_updated_on: 2023-06-16 18:52:56.000000000 Z
+- name: Cassandra
+  description: A partitioned row store. Rows are organized into tables with a required
+    primary key.
+  website_url: http://cassandra.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1032/cassandra_small.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/langchain_community/chat_message_histories/cassandra.py
+  detection_source: libs/community/langchain_community/chat_message_histories/cassandra.py
+  last_updated_by: Christophe Bornet
+  last_updated_on: 2024-05-03 14:20:39.000000000 Z
+- name: Chroma
+  description: The AI-native open-source embedding database
+  website_url: https://www.trychroma.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/101828/default_de3ae68ae3ebc7fda7f97083ea89a050444976ff.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/partners/chroma/pyproject.toml
+  detection_source: libs/partners/chroma/pyproject.toml
+  last_updated_by: Trayan Azarov
+  last_updated_on: 2024-05-06 20:31:40.000000000 Z
+- name: DB
+  description: 'Version control for databases: save, restore, and archive snapshots
+    of your database from the command line'
+  website_url: https://github.com/infostreams/db
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/11593/no-img.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/tests/integration_tests/graphs/docker-compose-ontotext-graphdb/docker-compose.yaml
+  detection_source: libs/community/tests/integration_tests/graphs/docker-compose-ontotext-graphdb/docker-compose.yaml
+  last_updated_by: Neli Hateva
+  last_updated_on: 2024-01-29 20:25:53.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/.devcontainer/docker-compose.yaml
+  detection_source: ".devcontainer/docker-compose.yaml"
+  last_updated_by: Zander Chase
+  last_updated_on: 2023-05-04 18:37:00.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/docker/docker-compose.yml
+  detection_source: docker/docker-compose.yml
+  last_updated_by: Eugene Yurtsev
+  last_updated_on: 2024-03-08 19:39:28.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  version: 5.0.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: docker/docker-compose.yml
+  last_updated_by: Dmitry Kankalovich
+  last_updated_on: 2024-02-08 03:06:09.000000000 Z
+- name: Supabase
+  description: The open source Firebase alternative
+  website_url: https://supabase.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/12323/Z_q3YLKR_400x400.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/docs/package.json
+  detection_source: docs/package.json
+  last_updated_by: Brace Sproul
+  last_updated_on: 2024-03-15 00:42:22.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.12.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/docs/yarn.lock
+  detection_source: docs/babel.config.js
+  last_updated_by: Davis Chase
+  last_updated_on: 2023-06-16 18:52:56.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain
+  detection_source: Repo Metadata
+- name: Docker Compose
+  description: Define and run multi-container applications with Docker
+  website_url: https://github.com/docker/compose
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/3136/docker-compose.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/docker/docker-compose.yml
+  detection_source: docker/docker-compose.yml
+  last_updated_by: Dmitry Kankalovich
+  last_updated_on: 2024-02-08 03:06:09.000000000 Z
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/docs/package.json
+  detection_source: docs/package.json
+  last_updated_by: Brace Sproul
+  last_updated_on: 2024-03-11 21:23:12.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/docs/package.json
+  detection_source: docs/package.json
+  last_updated_by: Davis Chase
+  last_updated_on: 2023-06-16 18:52:56.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/.github/workflows/_compile_integration_test.yml
+  detection_source: ".github/workflows/_compile_integration_test.yml"
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-02-01 19:39:00.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.8.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/docs/yarn.lock
+  detection_source: docs/package.json
+  last_updated_by: Brace Sproul
+  last_updated_on: 2024-03-11 21:23:12.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/templates/sql-pgvector/pyproject.toml
+  detection_source: templates/sql-pgvector/pyproject.toml
+  last_updated_by: Manuel Soria
+  last_updated_on: 2023-11-14 15:47:48.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 5.90.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/docs/yarn.lock
+  detection_source: docs/package.json
+  last_updated_by: Davis Chase
+  last_updated_on: 2023-06-16 18:52:56.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/docs/yarn.lock
+  detection_source: docs/yarn.lock
+  last_updated_by: Brace Sproul
+  last_updated_on: 2024-03-04 23:14:28.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/docs/package.json
+  detection_source: docs/package.json
+  last_updated_by: Davis Chase
+  last_updated_on: 2023-06-16 18:52:56.000000000 Z
+- name: Xata
+  description: Serverless database on top of PostgreSQL and Elasticsearch
+  website_url: https://xata.io/
+  version: 1.3.1
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/47989/default_91448425d50074b7203a838e80ca0875891045e0.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Bagatur
+  last_updated_on: 2023-12-11 21:53:30.000000000 Z
+- name: Replicate
+  description: Run machine learning models with a few lines of code
+  website_url: https://replicate.com/
+  version: 0.24.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Machine Learning as a Service
+  image_url: https://img.stackshare.io/service/21709/default_e8df7b9f7533c3ea041cf8ded59b2c12e7466b67.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/templates/llama2-functions/poetry.lock
+  detection_source: templates/llama2-functions/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2023-11-22 06:41:12.000000000 Z
+- name: Vercel
+  description: It makes serverless application deployment easy
+  website_url: https://vercel.com/
+  open_source: false
+  hosted_saas: true
+  category: Application Utilities
+  sub_category: Static Web Hosting
+  image_url: https://img.stackshare.io/service/7618/bHjpwZem_400x400.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/docs/vercel.json
+  detection_source: docs/vercel.json
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-05-08 19:29:59.000000000 Z
+- name: Claude
+  description: A next-generation AI assistant for your tasks, no matter the scale
+  website_url: https://www.anthropic.com/product
+  version: 0.3.11
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/101883/default_fddf1fbe1d52baf4dac573b2b7fc24b78cc729b1.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Bagatur
+  last_updated_on: 2023-12-11 21:53:30.000000000 Z
+- name: Cohere.com
+  description: Add cutting-edge language processing to any system
+  website_url: https://cohere.com/
+  version: '4.54'
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/101884/default_cf6d4a823cb5b37940800efc1e952b6a6c74e32a.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: Elasticsearch
+  description: Open Source, Distributed, RESTful Search Engine
+  website_url: https://www.elastic.co/products/elasticsearch
+  version: 8.12.1
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/tests/integration_tests/vectorstores/docker-compose/elasticsearch.yml
+  last_updated_by: Joseph McElroy
+  last_updated_on: 2023-08-15 06:42:35.000000000 Z
+- name: Fireworks.ai
+  description: Fast, affordable, customizable Gen AI platform
+  website_url: https://app.fireworks.ai/
+  version: 0.9.0
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/109222/default_b25a23df73f919a659d87dd7d0493fe1267c8c2b.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: GPT4All
+  description: A free-to-use, locally running, privacy-aware chatbot
+  website_url: https://gpt4all.io/index.html
+  version: 1.0.8
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: GPT Tools
+  image_url: https://img.stackshare.io/service/109223/default_f477d8a1160a73dc008ccb33efa5d4b9d45baa07.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/templates/rag-chroma-private/pyproject.toml
+  detection_source: templates/rag-chroma-private/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2023-10-26 01:47:42.000000000 Z
+- name: Hugging Face
+  description: Build, train and deploy state of the art models
+  website_url: https://huggingface.co/
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/40287/default_b4fac77fd6589c7469ccfb18a0d2df3ff2a71dbd.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/langchain/pyproject.toml
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: Jupyter
+  description: Multi-language interactive computing environments.
+  website_url: http://jupyter.org
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Data Science Notebooks
+  image_url: https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain
+  detection_source: Repo Metadata
+- name: LLaMA
+  description: A foundational, 65-billion-parameter large language model (By Facebook)
+  website_url: https://ai.meta.com/blog/large-language-model-llama-meta-ai/
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/101870/default_110df704ee9867cb49e02a51b680222cc0b61823.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/templates/sql-llamacpp/pyproject.toml
+  detection_source: templates/sql-llamacpp/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2023-10-26 01:47:42.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  version: 0.0.347
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/cli/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-05-09 22:12:34.000000000 Z
+- name: Mongo
+  description: Heroku provides services and tools to build, run, and scale web applications.
+    Follow @herokustatus for platform updates. A @salesforce company.
+  website_url: http://wedesignapps.herokuapp.com
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3519/3wgIDj3j_normal.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/.devcontainer/docker-compose.yaml
+  detection_source: ".devcontainer/docker-compose.yaml"
+  last_updated_by: Zander Chase
+  last_updated_on: 2023-05-04 18:37:00.000000000 Z
+- name: OpenAI
+  description: Creating safe AGI that benefits all
+  website_url: https://openai.com/
+  version: 1.13.3
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/48786/default_8b1119bcbb159cebebc2f6cfc9cd2e359b169d22.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Bagatur
+  last_updated_on: 2023-12-11 21:53:30.000000000 Z
+- name: Pinecone
+  description: Build high-performance vector search applications
+  website_url: https://www.pinecone.io/
+  version: 3.2.2
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/48784/default_376332a8eee1cdbb0546ca1aaed0b8a7f4d673d7.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/partners/pinecone/poetry.lock
+  detection_source: libs/partners/pinecone/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-04-02 19:53:59.000000000 Z
+- name: Sentence Transformers
+  description: Multilingual sentence, paragraph, and image embeddings
+  website_url: https://www.sbert.net/
+  version: 2.7.0
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: NLP / Sentiment Analysis
+  image_url: https://img.stackshare.io/service/109224/default_1167b8b1fc15f3526701cde5a789734ae865925d.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/experimental/poetry.lock
+  detection_source: libs/experimental/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain
+  detection_source: Repo Metadata
+- name: XSLT
+  description: The official Twitter account for the sum of all knowledge, Wikipedia.
+    Overseen by @jeffelder.
+  website_url: https://en.wikipedia.org/wiki/XSLT
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4253/nZXfdUQq_normal.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain
+  detection_source: Repo Metadata
+- name: PyYAML
+  description: YAML parser and emitter for Python
+  package_url: https://pypi.org/project/PyYAML
+  version: '5.3'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19829/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/pyproject.toml
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Bagatur
+  last_updated_on: 2023-12-11 21:53:30.000000000 Z
+  vulnerabilities:
+  - name: Improper Input Validation in PyYAML
+    cve_id: CVE-2020-14343
+    cve_url: https://github.com/advisories/GHSA-8q59-q68h-6hv4
+    detected_date: Aug 22
+    severity: critical
+    first_patched: '5.4'
+- name: langchain
+  description: Building applications with LLMs through composability
+  package_url: https://pypi.org/project/langchain
+  version: 0.0.347
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/cli/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-05-09 22:12:34.000000000 Z
+  vulnerabilities:
+  - name: Server-Side Request Forgery in langchain
+    cve_id: CVE-2024-3095
+    cve_url: https://github.com/advisories/GHSA-q25c-c977-4cmh
+    detected_date: Jun 7
+    severity: moderate
+    first_patched:
+  - name: langchain vulnerable to path traversal
+    cve_id: CVE-2024-3571
+    cve_url: https://github.com/advisories/GHSA-rgp8-pm28-3759
+    detected_date: Apr 17
+    severity: moderate
+    first_patched: 0.0.353
+  - name: Denial of service in langchain
+    cve_id: CVE-2024-2965
+    cve_url: https://github.com/advisories/GHSA-3hjh-jh2h-vrg6
+    detected_date: Jun 7
+    severity: moderate
+    first_patched:
+  - name: langchain Server-Side Request Forgery vulnerability
+    cve_id: CVE-2024-0243
+    cve_url: https://github.com/advisories/GHSA-h9j7-5xvc-qhg5
+    detected_date: Feb 27
+    severity: low
+    first_patched: 0.1.0
+- name: langchain-core
+  description: Building applications with LLMs through composability
+  package_url: https://pypi.org/project/langchain-core
+  version: 0.0.11
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/cli/poetry.lock
+  detection_source: libs/cli/langchain_cli/integration_template/pyproject.toml
+  last_updated_by: Bagatur
+  last_updated_on: 2024-02-10 01:59:34.000000000 Z
+  vulnerabilities:
+  - name: LangChain's XMLOutputParser vulnerable to XML Entity Expansion
+    cve_id: CVE-2024-1455
+    cve_url: https://github.com/advisories/GHSA-q84m-rmw3-4382
+    detected_date: Mar 27
+    severity: moderate
+    first_patched: 0.1.35
+  - name: LangChain directory traversal vulnerability
+    cve_id: CVE-2024-28088
+    cve_url: https://github.com/advisories/GHSA-h59x-p739-982c
+    detected_date: Mar 15
+    severity: low
+    first_patched: 0.1.30
+- name: pymongo
+  description: Python driver for MongoDB &lt;http://www.mongodb.org&gt;
+  package_url: https://pypi.org/project/pymongo
+  version: 4.6.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19865/default_7975a21f3bf03129dc3bc4168cf7cb7ee2cc14cc.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/partners/mongodb/pyproject.toml
+  last_updated_by: Jib
+  last_updated_on: 2024-02-29 23:09:48.000000000 Z
+  vulnerabilities:
+  - name: 'PyMongo Out-of-bounds Read in the bson module '
+    cve_id: CVE-2024-5629
+    cve_url: https://github.com/advisories/GHSA-m87m-mmvp-v9qm
+    detected_date: Jun 6
+    severity: moderate
+    first_patched: 4.6.3
+  - name: 'PyMongo Out-of-bounds Read in the bson module '
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-cr6f-gf5w-vhrc
+    detected_date: Apr 9
+    severity: moderate
+    first_patched: 4.6.3
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  version: 2.31.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/cli/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+  vulnerabilities:
+  - name: Requests `Session` object does not verify requests after making first request
+      with verify=False
+    cve_id: CVE-2024-35195
+    cve_url: https://github.com/advisories/GHSA-9wx4-h78v-vm56
+    detected_date: May 21
+    severity: moderate
+    first_patched: 2.32.0
+- name: tqdm
+  description: Fast, Extensible Progress Meter
+  package_url: https://pypi.org/project/tqdm
+  version: 4.66.2
+  license: MPL-2.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19846/default_accee5d2b8ed75c2245f13504daf75b1cbc8cc9f.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+  vulnerabilities:
+  - name: tqdm CLI arguments injection attack
+    cve_id: CVE-2024-34062
+    cve_url: https://github.com/advisories/GHSA-g7vv-2v7x-gj9p
+    detected_date: May 4
+    severity: low
+    first_patched: 4.66.3
+- name: SQLAlchemy
+  description: Database Abstraction Library
+  package_url: https://pypi.org/project/SQLAlchemy
+  version: '1.4'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19847/default_db2ab2702f70e20c272f6ce65251108fb2b8f1ea.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/pyproject.toml
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: ccurme
+  last_updated_on: 2024-05-09 20:01:44.000000000 Z
+- name: aiohttp
+  description: Async http client/server framework
+  package_url: https://pypi.org/project/aiohttp
+  version: 3.9.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19852/default_d748224707283d9d8a73c2323730c87bda6b313a.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/cli/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Chenhui Zhang
+  last_updated_on: 2024-04-01 18:11:21.000000000 Z
+- name: aiosqlite
+  description: Asyncio bridge to the standard sqlite3 module
+  package_url: https://pypi.org/project/aiosqlite
+  version: 0.19.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: anthropic
+  description: The official Python library for the anthropic API
+  package_url: https://pypi.org/project/anthropic
+  version: 0.3.11
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: async-timeout
+  description: Timeout context manager for asyncio programs
+  package_url: https://pypi.org/project/async-timeout
+  version: 4.0.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20820/default_33e8d7fbba8bfff26ed0101b65f3a3af5fd63b4e.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/cli/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: atlassian-python-api
+  description: Python Atlassian REST API Wrapper
+  package_url: https://pypi.org/project/atlassian-python-api
+  version: 3.41.11
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Christophe Bornet
+  last_updated_on: 2024-04-20 02:09:58.000000000 Z
+- name: awscli
+  description: Universal Command Line Environment for AWS
+  package_url: https://pypi.org/project/awscli
+  version: 1.32.61
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20010/default_01ad0299ca69c7b3e7fb7fee7a49e261bc9d294a.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/templates/rag-aws-bedrock/poetry.lock
+  detection_source: templates/rag-aws-bedrock/pyproject.toml
+  last_updated_by: Piyush Jain
+  last_updated_on: 2023-10-28 00:02:28.000000000 Z
+- name: azure-core
+  description: Microsoft Azure Core Library for Python
+  package_url: https://pypi.org/project/azure-core
+  version: 1.30.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20643/default_eac54b26516ae2823ed86a96e24038313550c798.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-05-09 20:45:44.000000000 Z
+- name: azure-cosmos
+  description: Azure Cosmos Python SDK
+  package_url: https://pypi.org/project/azure-cosmos
+  version: 4.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: beautifulsoup4
+  description: Screen-scraping library
+  package_url: https://pypi.org/project/beautifulsoup4
+  version: 4.12.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19838/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: bibtexparser
+  description: Bibtex parser for python 2.7 and 3.3 and newer
+  package_url: https://pypi.org/project/bibtexparser
+  version: 1.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: black
+  description: The uncompromising code formatter
+  package_url: https://pypi.org/project/black
+  version: 24.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20099/default_029b9bbfb6be2cd34bebeda5b8e1e80a1d22441c.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Jacob Lezberg
+  last_updated_on: 2024-03-25 07:11:23.000000000 Z
+- name: boto3
+  description: The AWS SDK for Python
+  package_url: https://pypi.org/project/boto3
+  version: 1.34.61
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19840/default_1c41e593803157c668b26f27387160254f0f5371.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/templates/bedrock-jcvd/poetry.lock
+  detection_source: templates/bedrock-jcvd/pyproject.toml
+  last_updated_by: João Galego
+  last_updated_on: 2023-12-19 23:55:58.000000000 Z
+- name: bs4
+  description: Dummy package for Beautiful Soup
+  package_url: https://pypi.org/project/bs4
+  version: 0.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19906/default_2aeed05332f0410b54817405c7e8e202a7e763cf.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/templates/openai-functions-agent-gmail/poetry.lock
+  detection_source: templates/openai-functions-agent-gmail/pyproject.toml
+  last_updated_by: William FH
+  last_updated_on: 2023-12-12 16:34:28.000000000 Z
+- name: chardet
+  description: Universal encoding detector for Python 2 and 3
+  package_url: https://pypi.org/project/chardet
+  version: 5.2.0
+  license: LGPL-2.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19856/default_4a8a8fdc10130068bf295812b98e9b72fb42fe70.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: chromadb
+  description: Chroma
+  package_url: https://pypi.org/project/chromadb
+  version: 0.5.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/partners/chroma/poetry.lock
+  detection_source: libs/partners/chroma/pyproject.toml
+  last_updated_by: Trayan Azarov
+  last_updated_on: 2024-05-06 20:31:40.000000000 Z
+- name: clarifai
+  description: Clarifai API Python Client
+  package_url: https://pypi.org/project/clarifai
+  version: 10.1.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: cloudpickle
+  description: Extended pickling support for Python objects
+  package_url: https://pypi.org/project/cloudpickle
+  version: 3.0.0
+  license: BSD-1-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20066/default_bb49fb0188726b8922387d8bb6e9b2cd0c3c0ea9.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: cohere
+  description: Python SDK for the Cohere API
+  package_url: https://pypi.org/project/cohere
+  version: '4.54'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: couchbase
+  description: Python Client for Couchbase
+  package_url: https://pypi.org/project/couchbase
+  version: 4.1.12
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: dataclasses-json
+  description: Easily serialize dataclasses to and from JSON
+  package_url: https://pypi.org/project/dataclasses-json
+  version: 0.6.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20519/default_ded6d17aa418fbd05ff28b85345c77ab878c6b37.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/cli/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: defusedxml
+  description: XML bomb protection for Python stdlib modules
+  package_url: https://pypi.org/project/defusedxml
+  version: 0.7.1
+  license: Python-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20210/default_6796c4086c025d18cdc673750b208b846d8e0914.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/partners/anthropic/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-05 22:19:40.000000000 Z
+- name: feedparser
+  description: Universal feed parser
+  package_url: https://pypi.org/project/feedparser
+  version: 6.0.11
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19965/default_62b2ac36bb8fe8a96b159da37fa490cc7a170082.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: fireworks-ai
+  description: Python client library for the Fireworks.ai Generative AI Platform
+  package_url: https://pypi.org/project/fireworks-ai
+  version: 0.9.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: freezegun
+  description: Let your Python tests travel through time
+  package_url: https://pypi.org/project/freezegun
+  version: 1.4.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20595/default_9322f13ef9811bfc120f244dc670f7e4fb5b8aa3.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Bagatur
+  last_updated_on: 2023-12-11 21:53:30.000000000 Z
+- name: google-api-python-client
+  description: Google API Client Library for Python
+  package_url: https://pypi.org/project/google-api-python-client
+  version: 2.122.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19897/default_4343f8bba4f6051641ffca8b4fbe9b099402c84d.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/templates/openai-functions-agent-gmail/poetry.lock
+  detection_source: templates/openai-functions-agent-gmail/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-02-06 01:12:12.000000000 Z
+- name: google-auth-oauthlib
+  description: Google Authentication Library
+  package_url: https://pypi.org/project/google-auth-oauthlib
+  version: 1.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20240/default_8a23a3884b3073b5e1695e2320e46529e60882b3.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/templates/openai-functions-agent-gmail/poetry.lock
+  detection_source: templates/openai-functions-agent-gmail/pyproject.toml
+  last_updated_by: William FH
+  last_updated_on: 2023-12-12 16:34:28.000000000 Z
+- name: gpt4all
+  description: Python bindings for GPT4All
+  package_url: https://pypi.org/project/gpt4all
+  version: 1.0.8
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/templates/rag-chroma-private/pyproject.toml
+  detection_source: templates/rag-chroma-private/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2023-11-22 06:41:12.000000000 Z
+- name: gql
+  description: GraphQL client for Python
+  package_url: https://pypi.org/project/gql
+  version: 3.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Bagatur
+  last_updated_on: 2023-12-11 21:53:30.000000000 Z
+- name: html2text
+  description: Turn HTML into equivalent Markdown-structured text
+  package_url: https://pypi.org/project/html2text
+  version: 2020.1.16
+  license: GPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19982/default_ccb381b493daf0d966e015380e1894fdbc637ad3.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: httpx
+  description: The next generation HTTP client
+  package_url: https://pypi.org/project/httpx
+  version: 0.27.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20315/default_5f4e928dbcb1c4db4050881fc2e0229785fc931c.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/cli/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Chenhui Zhang
+  last_updated_on: 2024-04-01 18:11:21.000000000 Z
+- name: huggingface-hub
+  description: Client library to download and publish models
+  package_url: https://pypi.org/project/huggingface-hub
+  version: 0.21.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: ipykernel
+  description: IPython Kernel for Jupyter
+  package_url: https://pypi.org/project/ipykernel
+  version: 6.29.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20282/default_23dd4b159eaa2c5b085470b39bf396fcc6cf2c38.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/partners/azure-dynamic-sessions/pyproject.toml
+  last_updated_by: Anthony Chu
+  last_updated_on: 2024-05-09 21:39:04.000000000 Z
+- name: jsonpatch
+  description: Apply JSON-Patches
+  package_url: https://pypi.org/project/jsonpatch
+  version: '1.33'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20389/default_dbae17f97e8212cfa7ac5c2981eb06a9bf0f7b40.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/cli/poetry.lock
+  detection_source: libs/core/pyproject.toml
+  last_updated_by: Harrison Chase
+  last_updated_on: 2023-11-20 21:09:30.000000000 Z
+- name: jsonschema
+  description: An implementation of JSON Schema validation for Python
+  package_url: https://pypi.org/project/jsonschema
+  version: 4.21.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19854/default_3fbfa1d88b4408e903227ac391490e8efb8dea58.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: ccurme
+  last_updated_on: 2024-05-09 20:01:44.000000000 Z
+- name: langchain-experimental
+  description: Building applications with LLMs through composability
+  package_url: https://pypi.org/project/langchain-experimental
+  version: 0.0.57
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Bagatur
+  last_updated_on: 2024-03-01 02:33:21.000000000 Z
+- name: langchainhub
+  package_url: https://pypi.org/project/langchainhub
+  version: 0.1.15
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/partners/azure-dynamic-sessions/pyproject.toml
+  last_updated_by: Anthony Chu
+  last_updated_on: 2024-05-09 21:39:04.000000000 Z
+- name: libcst
+  description: A concrete syntax tree with AST-like properties for Python 3.5
+  package_url: https://pypi.org/project/libcst
+  version: 1.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/cli/poetry.lock
+  detection_source: libs/cli/pyproject.toml
+  last_updated_by: Eugene Yurtsev
+  last_updated_on: 2024-04-26 14:50:21.000000000 Z
+- name: lxml
+  description: Powerful and Pythonic XML processing library combining libxml2/libxslt
+    with the ElementTree API
+  package_url: https://pypi.org/project/lxml
+  version: 4.9.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19835/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Evgenii Zheltonozhskii
+  last_updated_on: 2024-03-27 20:27:59.000000000 Z
+- name: motor
+  description: Non-blocking MongoDB driver for Tornado or asyncio
+  package_url: https://pypi.org/project/motor
+  version: 3.3.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20275/default_267c21fe20acb6a3a56ea60f8b271e1ab445049d.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: msal
+  description: The Microsoft Authentication Library
+  package_url: https://pypi.org/project/msal
+  version: 1.27.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: mwparserfromhell
+  description: MWParserFromHell is a parser for MediaWiki wikicode
+  package_url: https://pypi.org/project/mwparserfromhell
+  version: 0.6.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: mypy
+  description: Optional static typing for Python
+  package_url: https://pypi.org/project/mypy
+  version: '0.991'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20219/default_d4dd0466552a9776ca8535b869e22a3362790c94.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/cli/langchain_cli/integration_template/pyproject.toml
+  last_updated_by: Bagatur
+  last_updated_on: 2024-02-10 01:59:34.000000000 Z
+- name: nbsphinx
+  description: Jupyter Notebook Tools for Sphinx
+  package_url: https://pypi.org/project/nbsphinx
+  version: 0.8.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/poetry.lock
+  detection_source: docs/api_reference/requirements.txt
+  last_updated_by: Bagatur
+  last_updated_on: 2024-01-17 20:57:34.000000000 Z
+- name: neo4j
+  description: Neo4j Bolt driver for Python
+  package_url: https://pypi.org/project/neo4j
+  version: 5.18.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/templates/neo4j-advanced-rag/poetry.lock
+  detection_source: templates/neo4j-advanced-rag/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2023-11-22 06:41:12.000000000 Z
+- name: newspaper3k
+  description: Simplified python article discovery &amp; extraction
+  package_url: https://pypi.org/project/newspaper3k
+  version: 0.2.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: numexpr
+  description: Fast numerical expression evaluator for NumPy
+  package_url: https://pypi.org/project/numexpr
+  version: 2.8.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20289/default_bae4ec34e549383af798a405820088989f617ff0.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: numpy
+  description: NumPy is the fundamental package for array computing with Python
+  package_url: https://pypi.org/project/numpy
+  version: 1.24.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19828/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/cli/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Bagatur
+  last_updated_on: 2023-12-11 21:53:30.000000000 Z
+- name: oci
+  description: Oracle Cloud Infrastructure Python SDK
+  package_url: https://pypi.org/project/oci
+  version: 2.124.1
+  license: UPL-1.0,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Bagatur
+  last_updated_on: 2023-12-11 21:53:30.000000000 Z
+- name: openai
+  description: The official Python library for the openai API
+  package_url: https://pypi.org/project/openai
+  version: 1.13.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: opencv-python
+  description: Wrapper package for OpenCV python bindings
+  package_url: https://pypi.org/project/opencv-python
+  version: 4.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: templates/rag-semi-structured/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-13 01:25:45.000000000 Z
+- name: packaging
+  description: Core utilities for Python packages
+  package_url: https://pypi.org/project/packaging
+  version: '24.0'
+  license: BSD-3-Clause,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19894/default_f716e4bc541a9eb6e3f5b7a20d7c35355075b0b4.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/cli/poetry.lock
+  detection_source: libs/core/pyproject.toml
+  last_updated_by: Bagatur
+  last_updated_on: 2023-12-07 22:24:58.000000000 Z
+- name: pandas
+  description: Powerful data structures for data analysis
+  package_url: https://pypi.org/project/pandas
+  version: 2.0.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19837/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: pdf2image
+  description: A wrapper around the pdftoppm and pdftocairo command line tools to
+    convert PDF to a PIL Image list
+  package_url: https://pypi.org/project/pdf2image
+  version: 1.17.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/templates/intel-rag-xeon/poetry.lock
+  detection_source: templates/rag-redis/pyproject.toml
+  last_updated_by: Tyler Hutcherson
+  last_updated_on: 2023-10-28 15:31:12.000000000 Z
+- name: pdfminer
+  description: PDF parser and analyzer
+  package_url: https://pypi.org/project/pdfminer
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20712/default_6d273b82077a2813a9d15f9bfdde63d56fcd3fa3.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/templates/rag-semi-structured/pyproject.toml
+  detection_source: templates/rag-semi-structured/pyproject.toml
+  last_updated_by: Shaurya Rohatgi
+  last_updated_on: 2023-12-12 23:44:35.000000000 Z
+- name: pgvector
+  description: Pgvector support for Python
+  package_url: https://pypi.org/project/pgvector
+  version: 0.1.8
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: praw
+  description: PRAW
+  package_url: https://pypi.org/project/praw
+  version: 7.7.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20605/default_3aa7d93e5dadf8a0123c65abeccd198669792007.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: psycopg2
+  description: Psycopg2 - Python-PostgreSQL Database Adapter
+  package_url: https://pypi.org/project/psycopg2
+  version: 2.9.9
+  license: BSD-3-Clause-Attribution
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20416/default_64aa60b33468d1d28611966765867676f6303b64.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: templates/sql-pgvector/pyproject.toml
+  last_updated_by: Manuel Soria
+  last_updated_on: 2023-11-14 15:47:48.000000000 Z
+- name: py-trello
+  description: Python wrapper around the Trello API
+  package_url: https://pypi.org/project/py-trello
+  version: 0.19.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: pydantic
+  description: Data validation and settings management using python 3.6 type hinting
+  package_url: https://pypi.org/project/pydantic
+  version: 2.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20022/default_b0d1a54f127d7017fce41c15f5e85568fb7019ed.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/cli/poetry.lock
+  detection_source: docs/api_reference/requirements.txt
+  last_updated_by: Bagatur
+  last_updated_on: 2023-12-13 22:24:50.000000000 Z
+- name: pyspark
+  description: Apache Spark Python API
+  package_url: https://pypi.org/project/pyspark
+  version: 3.5.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20194/default_3c305c494fb38a63681703a1e2253e6fc9546c86.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: pytesseract
+  description: Python-tesseract is a python wrapper for Google's Tesseract-OCR
+  package_url: https://pypi.org/project/pytesseract
+  version: 0.3.10
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20381/default_135579e95b2b6e219789a65aaca198fa4c877f7a.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/templates/intel-rag-xeon/poetry.lock
+  detection_source: templates/rag-semi-structured/pyproject.toml
+  last_updated_by: Shaurya Rohatgi
+  last_updated_on: 2023-12-12 23:44:35.000000000 Z
+- name: pytest
+  description: 'Pytest: simple powerful testing with Python'
+  package_url: https://pypi.org/project/pytest
+  version: 7.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19843/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/cli/poetry.lock
+  detection_source: libs/cli/langchain_cli/integration_template/pyproject.toml
+  last_updated_by: Eugene Yurtsev
+  last_updated_on: 2024-04-03 21:17:50.000000000 Z
+- name: pytest-asyncio
+  description: Pytest support for asyncio
+  package_url: https://pypi.org/project/pytest-asyncio
+  version: 0.20.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/cli/langchain_cli/integration_template/pyproject.toml
+  last_updated_by: Eugene Yurtsev
+  last_updated_on: 2024-04-03 21:17:50.000000000 Z
+- name: pytest-cov
+  description: Pytest plugin for measuring coverage
+  package_url: https://pypi.org/project/pytest-cov
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19958/default_e91a78767854f0fa80aab2f13d1a25b15ca2d278.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: pytest-mock
+  description: Thin-wrapper around the mock package for easier use with py.test
+  package_url: https://pypi.org/project/pytest-mock
+  version: 3.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20244/default_fc0d35561378e21d3174def06634c96515818661.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: python-dotenv
+  description: Add .env support to your django/flask apps in development and deployments
+  package_url: https://pypi.org/project/python-dotenv
+  version: 1.0.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20095/default_3141eabecdd8efa55de73a33c43f2ac0d5bbf954.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/partners/azure-dynamic-sessions/pyproject.toml
+  last_updated_by: Anthony Chu
+  last_updated_on: 2024-05-09 21:39:04.000000000 Z
+- name: rdflib
+  description: RDFLib is a Python library for working with RDF
+  package_url: https://pypi.org/project/rdflib
+  version: 7.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20004/default_87268cab0d3a3b3acf3aa0576d4b114b8e4c2521.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: requests-mock
+  description: Mock out responses from the requests package
+  package_url: https://pypi.org/project/requests-mock
+  version: 1.11.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20365/default_20f72d65682b6cad9939bcf162d0ef14fced900c.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: requests-toolbelt
+  description: A utility belt for advanced users of python-requests
+  package_url: https://pypi.org/project/requests-toolbelt
+  version: 1.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20128/default_3146a05cf4dd77d8b50cff25709373c081ac5053.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: responses
+  description: A utility library for mocking out the `requests` Python library
+  package_url: https://pypi.org/project/responses
+  version: 0.22.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20167/default_7c58f8c011d1676d1d010f43fec5e502e542d0a5.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: scikit-learn
+  description: A set of python modules for machine learning and data mining
+  package_url: https://pypi.org/project/scikit-learn
+  version: 1.3.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19898/default_4343f8bba4f6051641ffca8b4fbe9b099402c84d.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: setuptools
+  description: Easily download
+  package_url: https://pypi.org/project/setuptools
+  version: 67.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19831/default_65d1c12a133e1aa67ae96a1221c9c122ddf86c5f.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: spacy
+  description: Industrial-strength Natural Language Processing
+  package_url: https://pypi.org/project/spacy
+  version: 3.7.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20263/default_1842575018db691e6f93d8a9a1aa65cdc2a55c20.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/experimental/poetry.lock
+  detection_source: libs/text-splitters/pyproject.toml
+  last_updated_by: Bagatur
+  last_updated_on: 2024-03-01 02:33:21.000000000 Z
+- name: sphinx_rtd_theme
+  description: Read the Docs theme for Sphinx
+  package_url: https://pypi.org/project/sphinx_rtd_theme
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20304/default_506725603cd9affb22ffa36e3939310b26cbf952.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/docs/api_reference/requirements.txt
+  detection_source: docs/api_reference/requirements.txt
+  last_updated_by: Bagatur
+  last_updated_on: 2024-01-17 20:57:34.000000000 Z
+- name: sympy
+  description: Computer algebra system
+  package_url: https://pypi.org/project/sympy
+  version: '1.12'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19976/default_29192d68c64b1a3be468b1b73c2a129fc390c4f4.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: tabulate
+  description: Pretty-print tabular data
+  package_url: https://pypi.org/project/tabulate
+  version: 0.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19864/default_7975a21f3bf03129dc3bc4168cf7cb7ee2cc14cc.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/experimental/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: tenacity
+  description: Retry code until it succeeds
+  package_url: https://pypi.org/project/tenacity
+  version: 8.3.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20027/default_fd02050783f95269bfcc5c4d11f1c75dd423cd1d.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/cli/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Bagatur
+  last_updated_on: 2023-12-11 21:53:30.000000000 Z
+- name: toml
+  description: Python Library for Tom's Obvious, Minimal Language
+  package_url: https://pypi.org/project/toml
+  version: 0.10.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19912/default_bc82f0b22ca8fd942e21c317967f4ab61f43eb2c.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: docs/api_reference/requirements.txt
+  last_updated_by: Harrison Chase
+  last_updated_on: 2022-12-05 01:44:40.000000000 Z
+- name: tomlkit
+  description: Style preserving TOML library
+  package_url: https://pypi.org/project/tomlkit
+  version: 0.12.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20350/default_af2b356cd035e5e1c010a45df43c17b898af8c44.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/cli/poetry.lock
+  detection_source: libs/cli/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2023-11-07 19:06:08.000000000 Z
+- name: torch
+  description: Tensors and Dynamic neural networks in Python with strong GPU acceleration
+  package_url: https://pypi.org/project/torch
+  version: 2.3.0
+  license: BSD-1-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20038/default_a7a70921d2d3189665c78015850dc968f41705a1.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: uvicorn
+  description: The lightning-fast ASGI server
+  package_url: https://pypi.org/project/uvicorn
+  version: 0.23.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20431/default_f824837db22536768ec317b67275fa384fad7d47.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/cli/poetry.lock
+  detection_source: libs/cli/langchain_cli/project_template/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2023-10-25 18:06:58.000000000 Z
+- name: wikipedia
+  description: Wikipedia API for Python
+  package_url: https://pypi.org/project/wikipedia
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/templates/anthropic-iterative-search/poetry.lock
+  detection_source: templates/anthropic-iterative-search/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2023-11-22 06:41:12.000000000 Z
+- name: xmltodict
+  description: Makes working with XML feel like you are working with JSON
+  package_url: https://pypi.org/project/xmltodict
+  version: 0.13.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19902/default_1d0eb6da6bdd342bb15f73d8f1721516ebacd1dc.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/libs/community/poetry.lock
+  detection_source: libs/community/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-03-15 17:10:47.000000000 Z
+- name: "@mdx-js/react"
+  description: React implementation for MDX
+  package_url: https://www.npmjs.com/@mdx-js/react
+  version: 1.6.22
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17624/default_61a119a7701a0e8224ca0e4dce7ff951cd67972f.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/docs/yarn.lock
+  detection_source: docs/package.json
+  last_updated_by: Erick Friis
+  last_updated_on: 2023-12-05 00:58:26.000000000 Z
+- name: cookie
+  description: HTTP server cookie parsing and serialization
+  package_url: https://www.npmjs.com/cookie
+  version: 0.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16660/default_e654289254bcb9b55e3dca992739e962dc0c7297.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/docs/yarn.lock
+  detection_source: docs/package.json
+  last_updated_by: Brace Sproul
+  last_updated_on: 2024-03-04 23:14:28.000000000 Z
+- name: eslint-config-airbnb
+  description: Airbnb's ESLint config, following our styleguide
+  package_url: https://www.npmjs.com/eslint-config-airbnb
+  version: 19.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15857/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/docs/yarn.lock
+  detection_source: docs/package.json
+  last_updated_by: Davis Chase
+  last_updated_on: 2023-06-16 18:52:56.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 8.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/docs/yarn.lock
+  detection_source: docs/package.json
+  last_updated_by: Brace Sproul
+  last_updated_on: 2024-03-11 21:23:12.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.29.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/docs/yarn.lock
+  detection_source: docs/package.json
+  last_updated_by: Jacob Lee
+  last_updated_on: 2024-02-21 02:30:11.000000000 Z
+- name: eslint-plugin-jsx-a11y
+  description: Static AST checker for accessibility rules on JSX elements
+  package_url: https://www.npmjs.com/eslint-plugin-jsx-a11y
+  version: 6.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/docs/yarn.lock
+  detection_source: docs/package.json
+  last_updated_by: Jacob Lee
+  last_updated_on: 2024-02-21 02:30:11.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.34.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/docs/yarn.lock
+  detection_source: docs/package.json
+  last_updated_by: Jacob Lee
+  last_updated_on: 2024-02-21 02:30:11.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 4.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/docs/yarn.lock
+  detection_source: docs/package.json
+  last_updated_by: Jacob Lee
+  last_updated_on: 2024-02-21 02:30:11.000000000 Z
+- name: json-loader
+  description: Json loader module for webpack
+  package_url: https://www.npmjs.com/json-loader
+  version: 0.5.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15995/default_200de1a6fc4121e019ce4a5b0cf9ad37c7756e2d.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/docs/yarn.lock
+  detection_source: docs/package.json
+  last_updated_by: Jacob Lee
+  last_updated_on: 2024-02-21 02:30:11.000000000 Z
+- name: marked
+  description: A markdown parser built for speed
+  package_url: https://www.npmjs.com/marked
+  version: 12.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16065/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/docs/yarn.lock
+  detection_source: docs/package.json
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-05-08 19:29:59.000000000 Z
+- name: process
+  description: Process information for node.js and browsers
+  package_url: https://www.npmjs.com/process
+  version: 0.11.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17866/default_99a4718ac3f2beccb28962b727b0a38010c9b496.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/docs/yarn.lock
+  detection_source: docs/package.json
+  last_updated_by: Davis Chase
+  last_updated_on: 2023-06-16 18:52:56.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/docs/yarn.lock
+  detection_source: docs/package.json
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-05-08 19:29:59.000000000 Z
+- name: typedoc
+  description: Create api documentation for TypeScript projects
+  package_url: https://www.npmjs.com/typedoc
+  version: 0.24.8
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15983/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/docs/yarn.lock
+  detection_source: docs/package.json
+  last_updated_by: Brace Sproul
+  last_updated_on: 2024-03-15 00:42:22.000000000 Z
+- name: typedoc-plugin-markdown
+  description: A plugin for TypeDoc that enables TypeScript API documentation to be
+    generated in Markdown
+  package_url: https://www.npmjs.com/typedoc-plugin-markdown
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17015/default_88e2e076a71afdc1de87ad42c80c1606f2689af1.png
+  detection_source_url: https://github.com/DrivenIdeaLab/langchain/blob/master/docs/yarn.lock
+  detection_source: docs/package.json
+  last_updated_by: Erick Friis
+  last_updated_on: 2024-05-08 19:29:59.000000000 Z
